@@ -1,0 +1,17 @@
+body {
+    background-color: #333333;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.user_ph_big {
+    width: 365px;
+    height: 353px;
+    border-radius: 290px;
+    background-color: #4A4A4A;
+}
