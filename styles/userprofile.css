@@ -1,0 +1,135 @@
+body {
+    background-color: #333333;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.user_ph_big {
+    width: 365px;
+    height: 353px;
+    border-radius: 290px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.user_info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.user_posts_list {
+    padding-left: 0px;
+}
+
+.user-profile_head {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    color: white;
+    background-color: #4A4A4A;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.user-name_location {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 32px;
+}
+.user_location {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.user_location img {
+    width: 24px;
+    height: 24px;
+}
+
+.user_info_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin-top: 30px;
+
+}
+.user_info_title {
+    padding-bottom: 24px;
+}
+strong {
+    color: white;
+}
+.user-profile_link {
+    color: white;
+}
+.user_info_title {
+    font-family: "Inter title", sans-serif;
+    color: white;
+}
+
+.user_info_item {
+    font-family: "Inter title", sans-serif;
+    border-top: 2px solid white;
+    padding: 16px 0px;
+}
+
+.user_posts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.user_posts h2 {
+    font-family: "Inter title", sans-serif;
+    color: white;
+}
+
+.user_posts_list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    background-color: #4A4A4A;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.user_post-item-up {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.user_post-item-up_ph{
+    width: 56px;
+    height: 56px;
+    background: white;
+    border-radius: 50px;
+}
+
+.user_posts-item {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    font-family: "Inter p-big", sans-serif;
+    color: white;
+}
+
+.user_post-item-up_name {
+    font-family: "Inter h3", sans-serif;
+    color: white;
+}
+
